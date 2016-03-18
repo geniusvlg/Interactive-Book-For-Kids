@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ProgressBar
+        android:paddingTop="10dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar" />
+
+    <TextView
+        android:id="@+id/point"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Point: "/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What false name does Harry give the staff of the Knight Bus?"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neville Longbottom"/>
+
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dean Thomas"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seamus Finnegin"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dudley Dursley"/></RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" What is the name of the town where the Riddle family lived? "/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Little Hunsford"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Little Whinging"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Little Hagleton"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Little Sussex"/></RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who told Voldemort about the gardener eavesdropping on him?"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A house elf"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A rat"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Snake"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wormtail"/></RadioGroup>
+
+
+</LinearLayout>

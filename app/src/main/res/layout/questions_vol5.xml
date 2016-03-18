@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:paddingTop="10dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar" />
+
+
+    <TextView
+        android:id="@+id/point"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Point: "/>
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where does the action of Chapter 1 take place? "/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hogsmeade"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hogwarts"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Little Whinging"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azkaban"/></RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Why is it difficult for Harry to summon his Patronus Charm?"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Because he doesn't study enough"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Because he doesn't want to save his cousin"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Because his wand is broken"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Because he is so sad"/></RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What two characters witnessed Harry's Patronus Charm?"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uncle Vernon and Dudley"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Because he doesn't want to save his cousin"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dudley and Ms. Figg"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aunt Petunia and Ms. Figg"/></RadioGroup>
+
+
+</LinearLayout>

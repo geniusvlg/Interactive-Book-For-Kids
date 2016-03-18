@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:paddingTop="10dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar" />
+
+
+    <TextView
+        android:id="@+id/point"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Point: "/>
+
+
+
+    <RadioGroup
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What item do Harry and Dumbledore retrieve during their mission to the cave in Chapter 26?	"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slytherin's necklace"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gryffindor's sword"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hufflepuff's cup"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ravenclaw's bracelet"/></RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who takes over Hogwarts after the battle there?"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hagrid"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professor McConagall"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The ghosts"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professor Snape"/></RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is sent for to discuss the future of the school after the battle?"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The governing board"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The prefects"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The top student in each class"/>
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The heads of houses"/></RadioGroup>
+
+</LinearLayout>

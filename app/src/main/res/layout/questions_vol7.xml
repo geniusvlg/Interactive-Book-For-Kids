@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:paddingTop="10dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar" />
+
+    <TextView
+        android:id="@+id/point"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Point: "/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Why are most of the guests disapperating?"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To go find out for themselves what is happening"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In order to leave quickly"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To confuse the Death Eaters"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No one as yet is disapperating"/></RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What room do Ron, Hermione, and Harry find in Sirius's home?"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The room where Sirius is murdered"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No room, which is odd"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The room of Regulus Arcturus Black"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sir Lenard Black's room"/></RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For what is Mary Cattermole on trial?"/>
+        <RadioButton
+            android:onClick="correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Being muggle born"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Using aparating spells in the muggle world"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Using her power for seduction"/>
+
+        <RadioButton
+            android:onClick="wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Using a muggle in an experiment"/></RadioGroup>
+
+
+</LinearLayout>
