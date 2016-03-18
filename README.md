@@ -1,3 +1,3 @@
 # Interactive Book for cat
 
-Feed the cat, meow !Xàm
+Feed the cat, meow !
